@@ -6,7 +6,7 @@
  */
 
 /**
- * Implements template_preprocess_Hook().
+ * Implements template_preprocess_HOOK().
  */
 function template_disk_image_preprocess_islandora_disk_image(array &$variables) {
   module_load_include('inc', 'islandora', 'includes/datastream');
