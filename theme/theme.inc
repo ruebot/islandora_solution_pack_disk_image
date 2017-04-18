@@ -8,7 +8,7 @@
 /**
  * Implements template_preprocess_HOOK().
  */
-function template_disk_image_preprocess_islandora_disk_image(array &$variables) {
+function template_preprocess_islandora_disk_image(array &$variables) {
   module_load_include('inc', 'islandora', 'includes/datastream');
   module_load_include('inc', 'islandora', 'includes/utilities');
   module_load_include('inc', 'islandora', 'includes/solution_packs');
